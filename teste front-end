@@ -1,0 +1,119 @@
+<!-- Esse foi o primeiro exercício que fiz com HTML/CSS, como deve ficar evidente com a padronização de alguns elementos. A maior dificuldade foi tentar
+	 simular as fontes usadas: apesar de usar a opção Inspecionar nas páginas da Elo7, não encontrei a fonte exata da página-modelo - parece haver um misto
+	 de fontes como helvetica, arial, sans-serif e museo-sans, mas não cheguei no mesmo tipo exato de fonte. 
+	 Agora que concluí, vejo que poderia ter usado mais vezes o elemento Table, que realmente ajuda muito na hora de estruturar o layout. Alguns elementos,
+	 como o texto abaixo dos ícones Descontração e etc, poderiam ter ficado melhor alinhados.
+-->
+
+<html>
+
+<head>
+	<title>Simulação do site da elo7</title>
+	<style>
+		body {margin-left: 150px; background-color: #eef3f5; color: gray;}		
+		
+		.textoIcone {padding-left: 100px; max-width: 200px; text-align: justify; line-height: 1.6; font-weight: lighter;}
+			
+		.trabalhe {color: white; font-weight: bold; text-align: center; font-size: 20pt; font-family: Verdana;
+				   position: absolute; top: 350px; left: 500px;}
+		
+		.abaixoEquipe {padding-top: 20px; padding-bottom: 20px; height: 120px; max-width: 980px; text-align: center; line-height: 1.6;
+			   font-family: 'museo-sans', sans-serif; font-size: 12pt; background-color: white; padding-left: 10px; padding-right: 10px; }
+			   
+		.video {height: 650px; width: 1000px; background-color: #F8F8F8;}
+		
+		.ultimo {height: 1200px; width: 1000px; background-color: white;}
+		
+		.linkVaga {font-family: 'museo_sans', sans-serif; font-weight: 600; line-height: 2.0 ; text-decoration: none; padding-left: 65px; color: #73bebe}
+		
+		.localVaga {text-align: right; font-family: sans-serif;}
+		
+	</style>
+</head>
+
+<body>
+	<div class="trabalhe">Trabalhe no Elo7</div>
+	<img name="equipe" src="foto-header.png" style="width:1000px;"/>
+	<div class="abaixoEquipe"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br />
+					   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. 
+		  
+		  <br />
+		  <p> ____________________ </p>
+		  <p style="font-family: sans-serif; font-weight: bold;"> 
+			<a href="http://engenharia.elo7.com.br/vagas/" style="text-decoration: none; color: #73bebe;"> VAGAS EM ABERTO >></a>
+		  </p>
+	</div>
+	<div class="video"> 
+		<table>
+			<tr>
+				<td style="padding:50px;"><a href="https://www.youtube.com/watch?v=UQ2-6gk9Szs"><img src="placeholder-video.png"/></a></td>
+				<td>
+					<div>
+						<p style="font-family: 'helvetica', 'arial', sans-serif; font-weight:bold;">PALAVRA DO CEO<br />
+							<cite style="color:#FDB933; font-weight: bold; line-height:1.6">Carlos Curloni</cite>
+							<br /><br />
+							<p style="text-align: justify; font-family: 'museo_sans', sans-serif; max-width: 400px; margin-top: 1.5em;
+								font-weight: lighter; line-height: 1.6;">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, 
+							at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. 
+							Fusce risus tellus, tempus quis lacina in, vehicula ut tupis.
+							</p>
+						</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<p style="text-align: center; font-family: 'helvetica', 'arial', sans-serif; font-weight:bold;">CONHEÇA NOSSO TIME <br />FORA DE SÉRIE<br /><br /></p>
+		<img src="camila.png" style="padding-left:60px;"/>
+		<img src="guto.png" style="padding-left:10px;"/>
+		<img src="david.png" style="padding-left:10px;"/>
+		<img src="beatriz.png" style="padding-left:10px;"/>
+		
+	</div>
+	
+	<div class="ultimo"> 
+		<table>
+			<tr>
+				<th><img src="qualidade.png" style="padding: 20px; padding-top: 30px; padding-left: 120px;"/></th>
+				<th><img src="descontracao.png" style="padding: 20px; padding-top: 30px; padding-left: 120px;"/></th>
+				<th><img src="atividades.png" style="padding: 20px; padding-top: 30px; padding-left: 120px;"/></th>
+			</tr>
+			<tr>
+				<td style="font-family: sans-serif; font-weight: bold; padding-left: 120px;">QUALIDADE DE VIDA</td>
+				<td style="font-family: sans-serif; font-weight: bold; padding-left: 100px;">AMBIENTE DESCONTRAÍDO</td>
+				<td style="font-family: sans-serif; font-weight: bold; padding-left: 120px;">ATIVIDADES EXTRAS</td>
+			</tr>
+			<tr>
+				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum.</p></td>
+				<td><p class="textoIcone"><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus, tempus quis lacina in, vehicula ut tupis.</p></td>
+				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus.</p></td>
+			</tr>
+		</table>
+		<p style="text-align: center;"> ____________________ </p>
+		<p style="font-family: arial; font-weight: bold;text-align: center;"><a href="" style="text-decoration: none; color: #73bebe;">SAIBA MAIS >></a></p>
+		<br /><br />
+		<div style="text-align: center"><img src="foto-bottom.png" /></div>
+		<br />
+		<p style="text-align: center; font-weight: bold;">VAGAS EM ABERTO</p>
+		<br /><br />
+		<p style="font-size:14; padding-left: 70px; font-weight: bold;">DESENVOLVIMENTO</p>
+		<br/><br/>
+		<table style="width: 930px;">
+			<tr>
+				<td><a class="linkVaga" href="">Desenvolvedor Mobile Senior (Android e iOS)	</a></td>
+				<td class="localVaga">Vila Olímpia - São Paulo, Brasil</td>
+			</tr>
+			<tr>
+				<td><a class="linkVaga" href="">Desenvolvedor Java Senior</a></td>
+				<td class="localVaga">Vila Olímpia - São Paulo, Brasil</td>
+			</tr>
+			<tr>
+				<td><a class="linkVaga" href="">Desenvolvedor Front-End</a></td>
+				<td class="localVaga">Vila Olímpia - São Paulo, Brasil</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>
