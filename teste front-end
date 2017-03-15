@@ -12,12 +12,12 @@
 	<style>
 		body {margin-left: 150px; background-color: #eef3f5; color: gray;}		
 		
-		.textoIcone {padding-left: 100px; max-width: 200px; text-align: justify; line-height: 1.6; font-weight: lighter;}
+		.textoIcone {padding-left: 100px; max-width: 200px; text-align: justify; vertical-align: super; line-height: 1.6; font-weight: lighter;}
 			
-		.trabalhe {color: white; font-weight: bold; text-align: center; font-size: 20pt; font-family: Verdana;
+		.trabalhe {color: white; font-weight: bold; text-align: center; font-size: 20pt; font-family: Verdana; text-shadow: 1px 1px black;
 				   position: absolute; top: 350px; left: 500px;}
 		
-		.abaixoEquipe {padding-top: 20px; padding-bottom: 20px; height: 120px; max-width: 980px; text-align: center; line-height: 1.6;
+		.abaixoFotoEquipe {padding-top: 20px; padding-bottom: 20px; height: 140px; max-width: 980px; text-align: center; line-height: 1.6;
 			   font-family: 'museo-sans', sans-serif; font-size: 12pt; background-color: white; padding-left: 10px; padding-right: 10px; }
 			   
 		.video {height: 650px; width: 1000px; background-color: #F8F8F8;}
@@ -34,7 +34,7 @@
 <body>
 	<div class="trabalhe">Trabalhe no Elo7</div>
 	<img name="equipe" src="foto-header.png" style="width:1000px;"/>
-	<div class="abaixoEquipe"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br />
+	<div class="abaixoFotoEquipe"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br />
 					   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. 
 		  
 		  <br />
@@ -84,9 +84,15 @@
 				<td style="font-family: sans-serif; font-weight: bold; padding-left: 120px;">ATIVIDADES EXTRAS</td>
 			</tr>
 			<tr>
-				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum.</p></td>
-				<td><p class="textoIcone"><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus, tempus quis lacina in, vehicula ut tupis.</p></td>
-				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus.</p></td>
+				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur 
+								ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum consectetur 
+								adipiscing elit gravida ex, at malesuada ligula.</p></td>
+				<td><p class="textoIcone"><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur 
+								ipsum risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, 
+								fringilla sagittis augue. Fusce risus tellus, tempus quis lacina in, vehicula ut tupis.</p></td>
+				<td><p class="textoIcone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ipsum 
+								risus gravida ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, 
+								fringilla sagittis augue. Fusce risus tellus.</p></td>
 			</tr>
 		</table>
 		<p style="text-align: center;"> ____________________ </p>
